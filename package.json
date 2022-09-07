@@ -1,0 +1,24 @@
+{
+  "name": "complete",
+  "version": "1.0.0",
+  "description": "API app deployed on heroku",
+  "main": "sqlserver.js",
+  "scripts": {
+    "start": "node sqlserver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Me",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "12"
+  }
+}
